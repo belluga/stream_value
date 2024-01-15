@@ -28,9 +28,7 @@ class StreamValue<T> {
     _streamErrorMessageController.add(null);
   }
 
-  void addError(String errorMessage) {
-    _streamErrorMessageController.add(errorMessage);
-  }
+  void addError(Exception error, {StackTrace? stackTrace}) => _streamValueController.addError(error);
 
   void dispose() {
     _streamValueController.close();
