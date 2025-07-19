@@ -1,6 +1,6 @@
 name: stream_value
-description: A simple wrap over StreamController and StreamBuilder that reduces the boilerplate to use Streams as State Management.
-version: 0.0.5
+description: a simple and lightweight state management solution for Flutter that wraps `StreamController` and `StreamBuilder` to eliminate boilerplate.
+version: 0.0.6
 repository: https://github.com/belluga/stream_value
 
 environment:
